@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AeroScanner</string>
+    <string name="tab_calculator">Planner</string>
+    <string name="tab_history">History</string>
+    <string name="tab_luggage">Scale</string>
+</resources>

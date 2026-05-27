@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <fix-data file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26" folderName="mipmap-anydpi" requiresApi="26"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="305"
+            column="36"
+            startOffset="11446"
+            endLine="305"
+            endColumn="70"
+            endOffset="11480"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="305"
+            column="80"
+            startOffset="11490"
+            endLine="305"
+            endColumn="125"
+            endOffset="11535"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="316"
+            column="36"
+            startOffset="11970"
+            endLine="316"
+            endColumn="78"
+            endOffset="12012"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="375"
+            column="40"
+            startOffset="14919"
+            endLine="375"
+            endColumn="77"
+            endOffset="14956"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="396"
+            column="90"
+            startOffset="15996"
+            endLine="396"
+            endColumn="132"
+            endOffset="16038"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="418"
+            column="32"
+            startOffset="16959"
+            endLine="418"
+            endColumn="70"
+            endOffset="16997"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/HistoryScreen.kt"
+            line="434"
+            column="37"
+            startOffset="17758"
+            endLine="434"
+            endColumn="94"
+            endOffset="17815"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/aeroscanner/LuggageBleScreen.kt"
+            line="188"
+            column="36"
+            startOffset="7112"
+            endLine="188"
+            endColumn="69"
+            endOffset="7145"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.05.01">
+        <fix-replace
+            description="Change to 2026.05.01"
+            family="Update versions"
+            oldString="2024.06.00"
+            replacement="2026.05.01"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="4"
+            column="14"
+            startOffset="56"
+            endLine="4"
+            endColumn="26"
+            endOffset="68"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="5"
+            column="19"
+            startOffset="87"
+            endLine="5"
+            endColumn="26"
+            endOffset="94"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.8">
+        <fix-replace
+            description="Change to 2.9.8"
+            family="Update versions"
+            oldString="2.7.7"
+            replacement="2.9.8"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="6"
+            column="21"
+            startOffset="115"
+            endLine="6"
+            endColumn="28"
+            endOffset="122"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.8.0"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="7"
+            column="13"
+            startOffset="135"
+            endLine="7"
+            endColumn="20"
+            endOffset="142"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.8.0"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="7"
+            column="13"
+            startOffset="135"
+            endLine="7"
+            endColumn="20"
+            endOffset="142"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.6.1">
+        <fix-replace
+            description="Change to 1.6.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.6.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="11"
+            column="11"
+            startOffset="206"
+            endLine="11"
+            endColumn="18"
+            endOffset="213"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.6.1">
+        <fix-replace
+            description="Change to 1.6.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.6.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="11"
+            column="11"
+            startOffset="206"
+            endLine="11"
+            endColumn="18"
+            endOffset="213"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.camera:camera-view than 1.3.1 is available: 1.6.1">
+        <fix-replace
+            description="Change to 1.6.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.6.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="11"
+            column="11"
+            startOffset="206"
+            endLine="11"
+            endColumn="18"
+            endOffset="213"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-mlkit-text-recognition than 16.0.0 is available: 19.0.1">
+        <fix-replace
+            description="Change to 19.0.1"
+            family="Update versions"
+            oldString="16.0.0"
+            replacement="19.0.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="12"
+            column="13"
+            startOffset="226"
+            endLine="12"
+            endColumn="21"
+            endOffset="234"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-location than 21.2.0 is available: 21.3.0">
+        <fix-replace
+            description="Change to 21.3.0"
+            family="Update versions"
+            oldString="21.2.0"
+            replacement="21.3.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="13"
+            column="24"
+            startOffset="258"
+            endLine="13"
+            endColumn="32"
+            endOffset="266"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.5.0 is available: 9.2.1. (There is also a newer version of 8.5.𝑥 available, if upgrading to 9.2.1 is difficult: 8.5.2)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 9.2.1"
+                family="Update versions"
+                oldString="8.5.0"
+                replacement="9.2.1"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.5.2"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.5.0"
+                replacement="8.5.2"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.android than 1.9.24 is available: 2.0.21">
+        <fix-replace
+            description="Change to 2.0.21"
+            family="Update versions"
+            oldString="1.9.24"
+            replacement="2.0.21"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="34"
+            endLine="3"
+            endColumn="18"
+            endOffset="42"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/app_logo.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/app_logo.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicates"
+        severity="warning"
+        message="The following unrelated icon files have identical contents: app_logo.png, ic_launcher.png">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/app_logo.png"/>
+    </incident>
+
+</incidents>

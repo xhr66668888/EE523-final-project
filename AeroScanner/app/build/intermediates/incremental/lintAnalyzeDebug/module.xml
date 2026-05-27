@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/hx666/Documents/EE523-final-project/AeroScanner/app"
+    name=":app"
+    type="APP"
+    maven="AeroScanner:app:unspecified"
+    agpVersion="8.5.0"
+    buildFolder="build"
+    bootClassPath="/home/hx666/Android/Sdk/platforms/android-34/android.jar:/home/hx666/Android/Sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

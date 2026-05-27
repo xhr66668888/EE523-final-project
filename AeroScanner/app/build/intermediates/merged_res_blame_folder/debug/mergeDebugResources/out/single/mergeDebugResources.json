@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.aeroscanner.app-debug-62:/drawable_app_logo.png.flat",
+        "source": "com.aeroscanner.app-main-64:/drawable/app_logo.png"
+    },
+    {
+        "merged": "com.aeroscanner.app-debug-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.aeroscanner.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.aeroscanner.app-debug-62:/font_oppo_sans.ttf.flat",
+        "source": "com.aeroscanner.app-main-64:/font/oppo_sans.ttf"
+    },
+    {
+        "merged": "com.aeroscanner.app-debug-62:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.aeroscanner.app-main-64:/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

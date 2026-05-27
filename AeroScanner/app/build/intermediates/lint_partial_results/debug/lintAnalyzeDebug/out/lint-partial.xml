@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.aeroscanner.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.mipmap.ic_launcher"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+        <location id="R.string.app_name"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="63"
+            endLine="3"
+            endColumn="28"
+            endOffset="78"/>
+        <location id="R.string.tab_calculator"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="112"
+            endLine="4"
+            endColumn="34"
+            endOffset="133"/>
+        <location id="R.string.tab_history"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="163"
+            endLine="5"
+            endColumn="31"
+            endOffset="181"/>
+        <location id="R.drawable.app_logo"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/app_logo.png"/>
+        <location id="R.string.tab_luggage"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="211"
+            endLine="6"
+            endColumn="31"
+            endOffset="229"/>
+        <entry
+            name="model"
+            string="color[ic_launcher_background(D)],drawable[app_logo(D)],font[oppo_sans(R)],mipmap[ic_launcher(D)],string[app_name(D),tab_calculator(D),tab_history(D),tab_luggage(D)],style[Theme_AeroScanner(U)];3^0^1;;;"/>
+        <location id="R.color.ic_launcher_background"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="41"
+            endOffset="91"/>
+    </map>
+
+</incidents>
