@@ -2,7 +2,7 @@
 
 ## Name:
 
-[Your Name]
+Haoran Xu
 
 # I. Introduction
 
@@ -95,11 +95,11 @@ AeroScanner demonstrates the course topics through a cohesive travel assistant r
 
 # VIII. Figma
 
-Figma link: [Add your Figma link before submission]
+Figma link: https://www.figma.com/design/ChSlb0Sm5UDKMsexbVEVhn/Untitled?node-id=0-1&t=BsFhp6v5WnkPADyk-1
 
 # IX. Demo Video
+https://youtube.com/shorts/4DEFJ2PhdO8
 
-YouTube demo link: [Add your YouTube demo video link before submission]
 
 # X. References
 
@@ -110,11 +110,3 @@ YouTube demo link: [Add your YouTube demo video link before submission]
 - ExchangeRate-API Open Access Endpoint, https://www.exchangerate-api.com/docs/free
 - Open-Meteo Forecast API, https://open-meteo.com/
 
-# XI. Appendices
-
-## Rubric Mapping
-
-- Functionality and usability: includes at least five covered topics: external APIs, Camera, Geolocation, BLE, and local storage/native Android APIs.
-- Code quality: feature code is separated into focused tools and clients: `TravelApiClient`, `TravelDisplay`, `CostTools`, `RouteTools`, `GeoTools`, `HistoryStore`, `BoardingPassScanner`, and `SmartScaleScanner`.
-- Final report: all report template sections are included.
-- Bonus: multiple external APIs, animated UI feedback, and innovative travel-specific features are included. A live demo should be performed with the instructor or TA if available.
